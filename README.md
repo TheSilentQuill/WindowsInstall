@@ -16,6 +16,19 @@ iwr https://raw.githubusercontent.com/TheSilentQuill/WindowsInstall/refs/heads/m
 ```
 2. Press **Enter** to execute the command.
 
+### Step 2.5: Execution Policy
+- If you get an error `Script blocked by Execution Policy`, do the following:
+1. Ensure you are running PowerShell as admin: Press `Windows Key+X` and select PowerShell (Admin) or Windows Terminal (Admin).
+2. In the PowerShell window, type this to allow unsigned code to execute and run the installation script:
+- If you a temporary solution (Only affects the current PowerShell session):
+```pwsh
+Set-ExecutionPolicy Unrestricted -Scope Process -Force
+```
+- If you a permanent solution (Affects the system or user-wide execution policy):
+```pwsh
+Set-ExecutionPolicy Unrestricted -Force
+```
+
 ### Step 3: Complete Activation
 - After you make your selection, the script will automatically proceed with the installation / ask for your input in interactive mode.
 - Once complete, all the programs will be installed on your computer.
