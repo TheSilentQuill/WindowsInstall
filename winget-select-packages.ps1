@@ -9,6 +9,7 @@ $availableApps = @(
     "IrfanSkiljan.IrfanView",
     "IrfanSkiljan.IrfanView.PlugIns",
     "IVPN.IVPN",
+    "JanDeDobbeleer.OhMyPosh",
     "Levitsky.FontBase",
     "MediaArea.MediaInfo",
     "MediaArea.MediaInfo.GUI",
