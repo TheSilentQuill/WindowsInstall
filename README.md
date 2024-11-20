@@ -13,11 +13,11 @@
 1. Copy and paste the following command into the PowerShell/Windows Terminal window:
 - If you want to install everything:
 ```pwsh
-iwr https://raw.githubusercontent.com/TheSilentQuill/WindowsInstall/refs/heads/main/winget-packages.ps1 | iex
+iwr https://raw.githubusercontent.com/TheSilentQuill/WindowsInstall/main/winget-packages.ps1 | iex
 ```
 - If you want to select what to install:
 ```pwsh
-iwr https://raw.githubusercontent.com/TheSilentQuill/WindowsInstall/refs/heads/main/winget-select-packages.ps1 | iex
+iwr https://raw.githubusercontent.com/TheSilentQuill/WindowsInstall/main/winget-select-packages.ps1 | iex
 ```
 2. Press **Enter** to execute the command.
 
