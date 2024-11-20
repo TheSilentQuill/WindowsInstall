@@ -1,3 +1,4 @@
+$scriptLogic = @'
 $availableApps = @(
     "7zip.7zip",
     "Bitwarden.Bitwarden",
@@ -111,3 +112,8 @@ foreach ($selectedApp in $selectedApps) {
 }
 
 Write-Host "`nInstallation of $($selectedApps.Count) $(if ($selectedApps.Count -eq 1) { 'app' } else { 'apps' }) complete."
+Start-Sleep -Seconds 0.75
+'@
+
+$encodedScriptLogic = [Convert]::ToBase64String([Text.Encoding]::Unicode.GetBytes($scriptLogic))
+Start-Process WT.exe -ArgumentList "powershell.exe -NoLogo -NoProfile -EncodedCommand $encodedScriptLogic"
