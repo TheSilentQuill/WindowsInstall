@@ -4,6 +4,7 @@ $availableApps = @(
     "Bitwarden.Bitwarden",
     "CodeSector.TeraCopy",
     "CrystalDewWorld.CrystalDiskInfo.ShizukuEdition",
+    "File-New-Project.EarTrumpet",
     "Git.Git",
     "Google.AndroidStudio",
     "HTTPToolKit.HTTPToolKit",
