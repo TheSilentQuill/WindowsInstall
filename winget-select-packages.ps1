@@ -13,6 +13,7 @@ $availableApps = @(
     "IVPN.IVPN",
     "JanDeDobbeleer.OhMyPosh",
     "Levitsky.FontBase",
+    "LibreWolf.LibreWolf",
     "Logitech.GHUB",
     "MediaArea.MediaInfo",
     "MediaArea.MediaInfo.GUI",
