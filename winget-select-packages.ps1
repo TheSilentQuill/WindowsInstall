@@ -38,8 +38,10 @@ $availableApps = @(
     "Vencord.Vesktop",
     "WinMerge.WinMerge",
     "WerWolv.ImHex",
+    "ajeetdsouza.zoxide",
     "aria2.aria2",
     "jqlang.jq",
+    "junegunn.fzf",
     "voidtools.Everything.Alpha",
     "yt-dlp.yt-dlp"
 )
